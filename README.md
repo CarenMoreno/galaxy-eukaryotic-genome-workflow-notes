@@ -52,4 +52,4 @@ My Galaxy skills are at a beginner level. I have not yet run the annotation step
 
 ## Credits
 
-Workshop and practice material by RSG Argentina and the instructor.
+Workshop.
