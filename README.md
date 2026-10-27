@@ -52,4 +52,4 @@ My Galaxy skills are at a beginner level. I have not yet run the annotation step
 
 ## Credits
 
-Workshop and practice material by RSG Argentina and the instructor. Datasets come from public Zenodo records listed in data/README_data.md. These notes are my own summary.
+Workshop and practice material by RSG Argentina and the instructor.
