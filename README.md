@@ -4,6 +4,9 @@ Notes, settings and a results guide from a hands-on workshop on assembling and a
 
 This was my first time using Galaxy. I wrote this repository to keep the whole workflow in one place and to be able to repeat it on my own data. It is a learning record, not original research, and the numbers quoted from the demonstration are not my own results.
 
+## Repository structure
+
+
 ## What the workshop covered
 
 | Step | Question it answers | Main tools |
@@ -52,4 +55,4 @@ My Galaxy skills are at a beginner level. I have not yet run the annotation step
 
 ## Credits
 
-Workshop.
+Workshop and practice material by RSG Argentina and the instructor. Datasets come from public Zenodo records listed in data/README_data.md. These notes are my own summary.
