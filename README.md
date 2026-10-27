@@ -5,6 +5,7 @@ Notes, settings and a results guide from a hands-on workshop on assembling and a
 This was my first time using Galaxy. I wrote this repository to keep the whole workflow in one place and to be able to repeat it on my own data. It is a learning record, not original research, and the numbers quoted from the demonstration are not my own results.
 
 ## Repository structure
+```
 galaxy-eukaryotic-genome-workflow-notes/
 ├── README.md
 ├── docs/
