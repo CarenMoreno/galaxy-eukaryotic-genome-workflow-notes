@@ -18,6 +18,7 @@ galaxy-eukaryotic-genome-workflow-notes/
 │   └── my_runs.md
 ├── screenshots/      
 └── workflow/         
+```
 
 ## What the workshop covered
 
