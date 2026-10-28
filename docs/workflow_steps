@@ -74,3 +74,15 @@ Settings used in the demo:
 
 Results are reported as complete (single copy and duplicated), fragmented and missing genes. BUSCO belongs to checking the assembly, not to annotation.
 
+## Step 7. Annotation (overview only)
+
+Practice files: a repeat-masked genome, RNA-seq reads, a SwissProt subset and an alternative annotation (see data/README_data.md).
+
+Order of the process:
+1. Mask repeats so the gene predictors do not misread them
+2. Predict genes
+3. Add functional annotation: InterProScan (protein domains, GO terms, pathways) and EggNOG
+4. Merge everything with Funannotate functional into one annotated genome
+5. Inspect the result in a genome browser: gene position, exons, coding sequence, translated protein
+
+Example summary from the demo annotation: 14,573 genes, 14,278 mRNAs, and thousands of GO and EggNOG annotations. I did not run this step.
