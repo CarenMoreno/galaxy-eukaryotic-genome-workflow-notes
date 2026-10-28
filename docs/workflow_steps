@@ -61,3 +61,16 @@ Tools in order: Racon with long reads, Medaka (specific to Nanopore), Racon agai
 
 Compare the statistics before and after. Polishing does not always raise N50; it can shorten regions where repeats were overestimated or split contigs that were wrongly joined.
 
+## Step 6. Completeness with BUSCO
+
+Tool: BUSCO in Galaxy, run on the polished genome.
+
+Settings used in the demo:
+- mode: genome
+- gene predictor: MetaEuk
+- lineage: embryophyta, chosen by hand because the sample is Eucalyptus (an automatic lineage option also exists)
+- outputs: short summary text and summary image
+- advanced cut-offs left at defaults
+
+Results are reported as complete (single copy and duplicated), fragmented and missing genes. BUSCO belongs to checking the assembly, not to annotation.
+
