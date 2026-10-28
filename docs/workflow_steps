@@ -52,3 +52,12 @@ Flye is an assembler built for long reads. The workflow also runs Fasta Statisti
 
 Check the contig count, total length, N50, L50 and the largest contig. See docs/concepts_and_metrics.md.
 
+## Step 5. Polishing
+
+Workflow: Assembly Polishing.
+
+Inputs: the Flye assembly, the raw long reads, and the trimmed Illumina R1.
+Tools in order: Racon with long reads, Medaka (specific to Nanopore), Racon again with short reads. The last output is the polished genome.
+
+Compare the statistics before and after. Polishing does not always raise N50; it can shorten regions where repeats were overestimated or split contigs that were wrongly joined.
+
