@@ -11,3 +11,8 @@
 ## Step 1. Read quality control
 
 Purpose: decide whether the reads can be used before spending time on assembly. Poor reads give a poor assembly however good the later tools are.
+
+Tools: FastQC for Illumina reads, NanoPlot for long reads, MultiQC to merge the FastQC reports.
+
+Settings: I left the optional contaminant and adapter lists empty and kept every module active. Other options stayed at their defaults, as in the demo.
+
