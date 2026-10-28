@@ -44,3 +44,11 @@ Workflow: Trim and filter reads - fastp, run on R1, R2 and the long reads.
 
 Result in the demo: 3.21 million reads before, 3.20 million after, so under 1% removed. The reads were already good, so trimming changed very little. The parameters can be edited in the workflow editor.
 
+## Step 4. Assembly
+
+Workflow: Assembly with Flye. Input: the long reads after fastp.
+
+Flye is an assembler built for long reads. The workflow also runs Fasta Statistics, Quast (genome report), a bar chart and Bandage (assembly graph image). It is slow on the public server: roughly 15 to 20 minutes or more.
+
+Check the contig count, total length, N50, L50 and the largest contig. See docs/concepts_and_metrics.md.
+
