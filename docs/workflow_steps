@@ -25,3 +25,13 @@ What to look at:
 
 The workshop first compared a 16S amplicon file with an Illumina genome run to show what a failed QC looks like. In the amplicon file quality fell sharply after roughly 110 bases and adapters were present. Amplicon data also show base composition bias and many duplicates because the same gene is sequenced over and over; that is expected and not a sequencing fault.
 
+## Step 2. k-mer counting
+
+Workflow: kmer counting - meryl. Input: the Illumina forward reads (R1) only.
+
+Meryl counts k-mers of different sizes and GenomeScope fits a model to the histogram. The output gives an estimate of genome size, heterozygosity, the length of repeated sequence and the length of unique sequence, plus a plot of coverage against frequency.
+
+How to read the plot: very short, very frequent k-mers at low coverage are errors. The main peak is the homozygous sequence. A smaller peak at roughly half that coverage comes from heterozygous regions. Repeats show up at high coverage.
+
+Caution: the data are a subsample, so the values describe the subsample and not the real genome.
+
