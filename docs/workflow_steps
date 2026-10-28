@@ -16,3 +16,12 @@ Tools: FastQC for Illumina reads, NanoPlot for long reads, MultiQC to merge the 
 
 Settings: I left the optional contaminant and adapter lists empty and kept every module active. Other options stayed at their defaults, as in the demo.
 
+What to look at:
+- basic statistics: number of reads, read length, %GC
+- per base quality: a sudden drop is a warning; a small decline at the end is normal
+- per tile quality: flow cell problems
+- per base sequence content, GC distribution, duplication levels, adapter content, overrepresented sequences
+- NanoPlot: mean read length, mean quality, and the plot of read length against quality
+
+The workshop first compared a 16S amplicon file with an Illumina genome run to show what a failed QC looks like. In the amplicon file quality fell sharply after roughly 110 bases and adapters were present. Amplicon data also show base composition bias and many duplicates because the same gene is sequenced over and over; that is expected and not a sequencing fault.
+
