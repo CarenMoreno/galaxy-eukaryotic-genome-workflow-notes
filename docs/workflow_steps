@@ -1,0 +1,13 @@
+# Workflow steps
+
+## Setup
+
+1. Create a free account on usegalaxy.eu. Galaxy runs on three main servers (US, Europe, Australia) and the tools and workflows differ between them. The workshop used the European one because the workflows were already available there.
+2. Create one history per stage and rename it: Sequence QC, Assembly, Annotation.
+3. Load the data into the history by URL (see data/README_data.md).
+4. Import the workflows: Workflows, Import, search the GA4GH servers for "Large Genome Assembly". The ones used were Data QC, kmer counting - meryl, Trim and filter reads - fastp, Assembly with Flye, Assembly Polishing and Assess Genome Quality.
+5. Change the datatype of the three Eucalyptus read files (R1, R2 and nanopore) to fastqsanger.gz before running the workflows. Pencil icon, Datatypes tab, type the new datatype and save. Some tools fail if this is skipped (see troubleshooting).
+
+## Step 1. Read quality control
+
+Purpose: decide whether the reads can be used before spending time on assembly. Poor reads give a poor assembly however good the later tools are.
