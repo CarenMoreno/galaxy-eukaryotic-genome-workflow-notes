@@ -35,3 +35,12 @@ How to read the plot: very short, very frequent k-mers at low coverage are error
 
 Caution: the data are a subsample, so the values describe the subsample and not the real genome.
 
+## Step 3. Trimming and filtering
+
+Workflow: Trim and filter reads - fastp, run on R1, R2 and the long reads.
+
+- Illumina: bases below Phred 15 are trimmed and very short reads are discarded (workflow defaults)
+- Long reads: no quality trimming on purpose, because the short reads supply the accuracy and losing long reads costs contiguity
+
+Result in the demo: 3.21 million reads before, 3.20 million after, so under 1% removed. The reads were already good, so trimming changed very little. The parameters can be edited in the workflow editor.
+
