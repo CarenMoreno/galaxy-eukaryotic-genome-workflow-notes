@@ -2,3 +2,13 @@
 
 ## Short glossary
 
+- Read: a short piece of DNA sequence produced by the sequencer. Short reads are about 50 to 300 bp, long reads 10,000 bp or more.
+- Contig: overlapping sequences merged into one continuous stretch.
+- Scaffold: contigs joined in order with gaps of unknown sequence between them.
+- Coverage (depth): how many reads cover a given position.
+- k-mer: a subsequence of length k used to estimate coverage and genome size without an assembly.
+- Masking: hiding repetitive regions so gene prediction does not make mistakes there.
+- Annotation: locating genes and regulatory regions and assigning functions to them.
+- Paired-end reads (R1 and R2): both ends of a fragment are sequenced, which helps place reads during assembly.
+- De novo assembly: built from the reads alone. Costly, but it keeps what is unique to the organism. Reference-guided assembly is faster but depends on the quality of the reference and can miss genes the reference lacks.
+
