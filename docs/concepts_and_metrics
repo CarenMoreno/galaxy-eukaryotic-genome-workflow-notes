@@ -23,3 +23,11 @@
 
 Eukaryotic genomes have many repeats, so Illumina-only assemblies tend to be fragmented. Combining both gives contiguity and accuracy.
 
+## Quality scores
+
+Phred score Q relates to error probability: Q20 is a 1% chance of error, Q30 is 0.1%. In FASTQ each score is stored as one ASCII character, for example ":" corresponds to 25.
+
+Thresholds mentioned in the workshop:
+- Illumina: Q20 or higher is acceptable
+- Nanopore and PacBio: above Q7 is acceptable, because there are fewer reads and a higher error rate is tolerated
+
