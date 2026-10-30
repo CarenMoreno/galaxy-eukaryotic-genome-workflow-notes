@@ -56,3 +56,9 @@ All of these come from a 10% subsample of the Eucalyptus data.
 | BUSCO on the subsample | almost all genes missing |
 | BUSCO on a fungal genome from the instructor's lab | about 78% complete, 11% fragmented, 10% missing |
 
+## Reading these numbers
+
+- The amplicon file and the genome run both failed the GC distribution module, for different reasons. The amplicon file had a multi-peaked distribution, which cannot be assembled meaningfully. The genome run only deviated from the theoretical curve, which is normal when the real organism has its own GC content.
+- A small high-duplication tail in a eukaryotic genome is normal and comes from repeats.
+- The BUSCO result on the subsample is an artefact: only a small fraction of the genome was assembled, so most expected genes are absent. The fungal result is what a usable assembly looks like.
+- The lineage chosen in BUSCO changes the result. A narrow lineage (for example the genus) finds more genes than a broad one.
