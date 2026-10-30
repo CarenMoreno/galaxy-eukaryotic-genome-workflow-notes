@@ -31,3 +31,11 @@ Thresholds mentioned in the workshop:
 - Illumina: Q20 or higher is acceptable
 - Nanopore and PacBio: above Q7 is acceptable, because there are fewer reads and a higher error rate is tolerated
 
+## Assembly metrics
+
+- N50: the length of the contig at which the running sum, starting from the longest, reaches 50% of the total assembly. Higher is better and it allows comparison between assemblies.
+- L50: how many contigs are needed to reach that 50%.
+- Ideal contig count: close to the number of chromosomes. In practice this rarely happens. Illumina-only assemblies commonly give thousands of contigs.
+
+Small example: for a 400 bp genome with contigs of 100, 70, 60 and so on, the contigs 100, 70 and 60 reach 230 bp, which passes the halfway point. N50 is 60 and L50 is 3.
+
