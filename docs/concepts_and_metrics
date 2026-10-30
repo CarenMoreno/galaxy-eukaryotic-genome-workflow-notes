@@ -39,3 +39,20 @@ Thresholds mentioned in the workshop:
 
 Small example: for a 400 bp genome with contigs of 100, 70, 60 and so on, the contigs 100, 70 and 60 reach 230 bp, which passes the halfway point. N50 is 60 and L50 is 3.
 
+## Numbers shown in the demo (instructor's run, not mine)
+
+All of these come from a 10% subsample of the Eucalyptus data.
+
+| Item | Value |
+|------|-------|
+| 16S amplicon file | 812 reads, around 296 bp, quality drop after about 110 bp, about half of the content was adapter |
+| Amplicon reads left after deduplication | 36.8% |
+| Genome run reads left after deduplication | 82% |
+| Eucalyptus Illumina reads | about 3.2 million, passed all FastQC modules except GC content (warning) |
+| Nanopore reads | around 85,000, mean length about 8.9 kb, mean quality about 9 |
+| Reads after fastp | 3.21 million to 3.20 million |
+| Flye assembly | 151 contigs, about 9.5 Mb, N50 close to 90 kb, L50 38, largest contig about 235 kb, no Ns |
+| After polishing | 151 contigs, N50 89,512 to 89,330, total 9,504,000 to 9,488,000 bp |
+| BUSCO on the subsample | almost all genes missing |
+| BUSCO on a fungal genome from the instructor's lab | about 78% complete, 11% fragmented, 10% missing |
+
