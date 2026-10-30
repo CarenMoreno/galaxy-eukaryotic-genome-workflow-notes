@@ -12,3 +12,14 @@
 - Paired-end reads (R1 and R2): both ends of a fragment are sequenced, which helps place reads during assembly.
 - De novo assembly: built from the reads alone. Costly, but it keeps what is unique to the organism. Reference-guided assembly is faster but depends on the quality of the reference and can miss genes the reference lacks.
 
+## Sequencing technologies in this workshop
+
+| | Illumina | Nanopore / PacBio |
+|---|---|---|
+| Read length | short, around 150 bp | very long, 10 kb or more |
+| Cost per read | low, very many reads | higher, fewer reads |
+| Error rate | low | higher |
+| Repeats | cannot span long repeats | can resolve long repeats |
+
+Eukaryotic genomes have many repeats, so Illumina-only assemblies tend to be fragmented. Combining both gives contiguity and accuracy.
+
