@@ -10,3 +10,11 @@ The instructor estimated that most Galaxy errors come from the file extension. F
 
 The public server is shared. Flye needed 15 to 20 minutes or more, and several of our jobs were still running after a long time. Plan for waiting, and start the slow steps first. Galaxy keeps a record of each job's run time in the dataset details.
 
+## I cannot open the practice history
+
+Use the shared link, choose Import this history, and copy only the active datasets. The history then appears among your histories and can be used as a starting point.
+
+## Workflows do not appear after import
+
+Go to Workflows, Import, GA4GH servers, search for "Large Genome Assembly", and import each workflow one by one as needed. The import can take a moment.
+
