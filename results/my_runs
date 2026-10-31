@@ -1,1 +1,15 @@
+# My runs
+
+Fill in only what I actually ran.
+
+| Step | Ran myself? | Galaxy history or job notes | Outcome |
+|------|-------------|-----------------------------|---------|
+| FastQC on practice file | [yes/no] | [history name] | [what I saw] |
+| NanoPlot and MultiQC | [yes/no] | | |
+| k-mer counting | [yes/no] | | |
+| fastp trimming | [yes/no] | | |
+| Flye assembly | [yes/no] | | |
+| Polishing | [yes/no] | | |
+| BUSCO | [yes/no] | | |
+| Group exercise (if done) | [yes/no] | | |
 
