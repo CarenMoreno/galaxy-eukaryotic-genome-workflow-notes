@@ -10,3 +10,13 @@ No data are stored in this repository. The practice datasets are public Zenodo r
 - RNA-seq: https://zenodo.org/record/6457007/files/GSM461180_1_subsampled.fastqsanger and https://zenodo.org/record/6457007/files/GSM461180_2_subsampled.fastqsanger
 - Nanopore: https://zenodo.org/record/7055935/files/Eucalyptus_subsample_ten_pc_nano_SRR7153076.fastq.gz
 
+## Assembly practice (Eucalyptus subsample)
+
+- Illumina R1: https://zenodo.org/record/7055935/files/Eucalyptus_subsample_ten_pc_SRR7153045_R1.fastq.gz
+- Illumina R2: https://zenodo.org/record/7055935/files/Eucalyptus_subsample_ten_pc_SRR7153045_R2.fastq.gz
+- Nanopore: https://zenodo.org/record/7055935/files/Eucalyptus_subsample_ten_pc_nano_SRR7153076.fastq.gz
+- Reference genome (Arabidopsis): https://zenodo.org/record/7055935/files/Ref_genome_Arabidopsis.fasta
+
+## Annotation practice
+
+All from https://zenodo.org/record/7867921/files/: genome_masked.fasta, rnaseq_R1.fq.gz, rnaseq_R2.fq.gz, SwissProt_subset.fasta, alternate_annotation.gbk, alternate_annotation.gff3
