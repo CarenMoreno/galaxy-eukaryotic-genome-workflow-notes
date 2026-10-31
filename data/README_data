@@ -1,1 +1,12 @@
+# Data
+
+No data are stored in this repository. The practice datasets are public Zenodo records, loaded into Galaxy by URL.
+
+## Quality control practice
+
+- 16S amplicon reads: https://zenodo.org/record/3977236/files/female_oral2.fastq-4143.gz
+- Bacterial genome (Illumina, paired): https://zenodo.org/record/10669812/files/DRR187559_1.fastqsanger.bz2 and https://zenodo.org/record/10669812/files/DRR187559_2.fastqsanger.bz2
+- Exome: https://zenodo.org/record/3243160/files/father_R1.fq.gz and https://zenodo.org/record/3243160/files/father_R2.fq.gz
+- RNA-seq: https://zenodo.org/record/6457007/files/GSM461180_1_subsampled.fastqsanger and https://zenodo.org/record/6457007/files/GSM461180_2_subsampled.fastqsanger
+- Nanopore: https://zenodo.org/record/7055935/files/Eucalyptus_subsample_ten_pc_nano_SRR7153076.fastq.gz
 
