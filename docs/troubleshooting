@@ -18,3 +18,10 @@ Use the shared link, choose Import this history, and copy only the active datase
 
 Go to Workflows, Import, GA4GH servers, search for "Large Genome Assembly", and import each workflow one by one as needed. The import can take a moment.
 
+## BUSCO shows mostly missing genes
+
+Not necessarily an error. Check whether the input is a small subsample and whether the lineage fits the organism.
+
+## Annotation did not run
+
+It was not run by participants. The instructor demonstrated it to save time.
