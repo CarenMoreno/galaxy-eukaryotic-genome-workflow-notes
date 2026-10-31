@@ -2,3 +2,11 @@
 
 Problems that came up during the workshop.
 
+## A tool fails with a datatype error
+
+The instructor estimated that most Galaxy errors come from the file extension. Fix: click the pencil icon on the dataset, open Datatypes and set fastqsanger.gz for the Eucalyptus R1, R2 and nanopore files. The edit is blocked while a job is still using that dataset, so wait or rerun the job afterwards.
+
+## Jobs stay queued or take a long time
+
+The public server is shared. Flye needed 15 to 20 minutes or more, and several of our jobs were still running after a long time. Plan for waiting, and start the slow steps first. Galaxy keeps a record of each job's run time in the dataset details.
+
